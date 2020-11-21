@@ -1,0 +1,31 @@
+district_ID,district_name,local_crop,soil_type,Total_production_TONNES
+101,Bagalkot,"Wheat,Miaze,Rice,cotton,Tobbaco,sugarcane,pearl Millet,sorghum","Black soil,Red soil",8255131
+102,Bangalore Rural,"Rice,Maize,Wheat,Sugarcane,Sorghum,Ragi","Black soil,Red soil,Reddish Brown soil",108902
+103,Bangalore Urban,"Rice,Maize,Wheat,Sugarcane,Sorghum,Ragi","Black soil,Red soil,Reddish Brown soil",25151
+104,Belgaum,"Rice,Maize,Wheat,Sugarcane,Sorghum,Pearl Millet,Cotton,Tobacco,Proso Millets","Black soil,Reddish Brown soil",20237588
+105,Bellary,"Rice,wheat,Maize,Sugarcane,Tobacco,Cotton,Sorghum,Ragi","Black soil,Laterite soil,Reddish Brown soil,Red and Black soil",1310251
+106,Bidar,"Rice,wheat,Maize,Sugarcane,Tobacco,Sorghum",Black soil,32026
+107,Chamarajanagar,"Rice,wheat,Maize,Sugarcane,Tobacco,Sorghum,Ragi","Black soil,Red soil,Dark Brown clay soil",858568
+108,Chikkaballapur,"Rice,wheat,Maize,Sugarcane,Tobacco,Sorghum,Ragi","Black soil,Red soil",111140
+109,Chikkamagaluru,"Rice,wheat,Maize,Sugarcane,Tobacco,Cotton,Sorghum,Ragi","Black soil,Laterite soil,Dark Brown clay soil",190786
+110,Chitradurga,"Rice,Maize,Wheat,Sugarcane,Tobacco,Surghum,Ragi,cotton",Black soil,269405
+111,Dakshina Kannada,"Rice,Maize,Wheat,Sugarcane,Tobacco","Laterite soil,Costal alluvials,Dark Brown soil",27648
+112,Davanagere,"Maize,Wheat,Sugarcane,Tobacco,Pearl Millet",Black soil,859787
+113,Dharwad,"Rice,Maize,Wheat,Sugarcane,Tobacco,Cotton,Pearl Millet,Proso Millets,Sorghum,Ragi","Black soil,Laterite soil,Dark Reddish Brown soil",795164
+114,Gadag,"Rice,Maize,Wheat,Sugarcane,Tobacco,Cotton,Pearl Millet,Proso Millets,Sorghum,Ragi","Black soil,Red soil",263014
+115,Gulbarga,"Rice,Maize,Wheat,Sugarcane,Tobacco,Cotton,Pearl Millet,Sorghum",Brown soil,2320783
+116,Hassan,"Rice,Maize,Wheat,Sugarcane,Tobacco,Cotton,Pearl Millet,Sorghum,Ragi","Black soil,LAterite soil,Red soil",721832
+117,Haveri,"Rice,Maize,Wheat,Sugarcane,Tobacco,Cotton,Proso Millet,Sorghum,Ragi",Black soil,1169189
+118,Kodagu,"Rice,Maize,Wheat,Sugarcane,Tobacco,Cotton,Ragi","Dark Brown clay soi,Red soil,Black soil",60385
+119,Kolar,"Rice,Maize,Wheat,Sugarcane,Tobacco,Sorghum,Ragi","Black soil,Red soil",57672
+120,Koppal,"Rice,Maize,Wheat,Sugarcane,Tobacco,Sorghum,Cotton,Pearl Millet","Black soil,Red soil",690242
+121,Mandya,"Rice,Maize,Wheat,Sugarcane,Tobacco,Sorghum,Ragi","Black soil,Red soil",4021100
+122,Mysore,"Rice,Maize,Wheat,Sugarcane,Tobacco,Sorghum,Ragi,Cotton","Black soil,Red soil,Laterite soil",1418295
+123,Raichur,"Rice,Maize,Wheat,Sugarcane,Tobacco,Sorghum,Cotton","Black soil,Mixed Red soil",984518
+124,Ramanagara,"Maize,Wheat,Sugarcane,Tobacco","Black soil,Red soil",125971
+125,Shimoga,"Rice,Maize,Wheat,Sugarcane,Tobacco,cotton,Ragi,Sorghum","Black soil,Dark Reddish Brown soil,Laterite soil",722400
+126,Tumkur,"Rice,Maize,Wheat,Sugarcane,Tobacco,Cotton,Sorghum,Ragi","Black soil,Red soil",261145
+127,Udupi,"Rice,Maize,Wheat,Sugarcane,Tobacco","Dark Brown clay soil,costal alluvials",102184
+128,Uttara Kannada,"Maize,Wheat,Sugarcane,Tobacco","Laterite soil,Costal alluvials,Dark Brown clay soil",622652
+129,Vijayapura,"Rice,Maize,Wheat,Sugarcane,Tobacco,Cotton,Sorghum,Pearl Millet","Black soil,Red soil",313731
+130,Yadgir,"Rice,Sugarcane,Cotton",Black soil,644482
