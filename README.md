@@ -1,5 +1,4 @@
-# Farmer-cultivation-database
-cultivation database district wise 
+# Farmer-cultivation-database 
 cultivation database is a simple database to track the type of crops and their production are cultivating annualy ,district wise and it also contain types of Soil which are using for cultivation, some of commercial and cereals crops cultivation is particular districts.
 This database contain cultivation information of all districts of KARNATAKA and database which is used for this project is SQLite.
 
