@@ -1,0 +1,103 @@
+##Area table
+CREATE TABLE Area(
+ID INT UNIQUE,
+state_name varchar(200),
+district_name varchar(200) PRIMARY KEY,
+district_ID INT,
+FOREIGN KEY(district_ID) REFERENCES district(district_ID) on DELETE SET NULL
+);
+
+##district table
+CREATE TABLE district(
+district_ID INT,
+local_crop varchar(100),
+soil_type varchar(100),
+Total_production_TONNES	INT,
+PRIMARY KEY(district_ID)
+);
+
+##production table
+CREATE TABLE production(
+	district_ID	INT,
+	district_name	varchar(100),
+	Rice_production INT,
+	maize_production INT,
+	wheat_production INT,
+	Jowar_production INT,
+	Ragi_production INT,
+	Bajra_production INT,
+	cotton_production INT,
+	sugarcane_production INT,
+	Tobacco_production INT,
+	FOREIGN KEY(district_name) REFERENCES Area(district_name) on DELETE SET NULL,
+	FOREIGN KEY(district_ID) REFERENCES district(district_ID) on DELETE SET NULL
+);
+
+
+##Insert data for Area table
+INSERT  INTO Area(ID,state_name,district_name,district_ID) VALUES
+('1','KARNATAKA','Bagalkot',NULL),
+('2','KARNATAKA','Bangalore Rural',NULL),
+('3','KARNATAKA','Bangalore Urban',NULL),
+('4','KARNATAKA','Belgaum',NULL),
+('5','KARNATAKA','Bellary',NULL),
+('6','KARNATAKA','Bidar',NULL),
+('7','KARNATAKA','Chamarajanagar',NULL),
+('8','KARNATAKA','Chikkaballapur',NULL),
+('9','KARNATAKA','Chikkamagaluru',NULL),
+('10','KARNATAKA','Chitradurga',NULL),
+('11','KARNATAKA','Dakshina Kannada',NULL),
+('12','KARNATAKA','Davanagere',NULL),
+('13', 'KARNATAKA','Dharwad',NULL),
+('14','KARNTAKA','Gadag',NULL),
+('15','KARNATAKA','Gulbarga',NULL),
+('16','KARNATAKA','Hassan',NULL),
+('17','KARNATAKA','Haveri',NULL),
+('18','KARNATAKA','Kodagu',NULL),
+('19','KARNATAKA','Kolar',NULL),
+('20','KARNATAKA','Koppal',NULL),
+('21','KARNATAKA','Mandya',NULL),
+('22','KARNATAKA','Mysore',NULL),
+('23','KARNATAKA','Raichur',NULL),
+('24','KARNATAKA','Ramanagara',NULL),
+('25','KARNATAKA','Shimoga',NULL),
+('26','KARNATAKA','Tumkur',NULL),
+('27','KARNATAKA','Udupi',NULL),
+('28','KARNATAKA','Uttara Kannada',NULL),
+('29','KARNATAKA','Vijayapura',NULL),
+('30','KANATAKA','Yadgir',NULL);
+
+##Insert data for district file
+INSERT INTO district(district_ID,district_name) VALUES
+('101','Bagalkot'),
+('102', 'Bangalore Rural'),
+('103','Bangalore Urban'),
+('104','Belgaum'),
+('105','Bellary'),
+('106','Bidar'),
+('107','Chamarajanagar'),
+('108','Chikkaballapur'),
+('109','Chikkamagaluru'),
+('110','Chitradurga'),
+('111','Dakshina Kannada'),
+('112','Davanagere'),
+('113','Dharwad'),
+('114','Gadag'),
+('115','Gulbarga'),
+('116','Hassan'),
+('117','Haveri'),
+('118','Kodagu'),
+('119','Kolar'),
+('120','Koppal'),
+('121','Mandya'),
+('122','Mysore'),
+('123','Raichur'),
+('124','Ramanagara'),
+('125','Shimoga'),
+('126','Tumkur'),
+('127','Udupi'),
+('128','Uttara Kannada'),
+('129','Vijayapura'),
+('130','Yadgir');
+and update local_crops ,soil_types,Total_production data using UPDATE
+
