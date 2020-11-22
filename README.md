@@ -22,5 +22,5 @@ step 3)
 create Production table which will contain district_ID,district_name,Rice_production,maize_production.wheat_production,Ragi_production,Bajra_production,jowar_production,sugarcane_production,cotton_production,tobbaco_production.
 district_ID and district_name act as foreign key.
 .........
-
+Production are in Tonnes
 Next step Insert data and all data information.
